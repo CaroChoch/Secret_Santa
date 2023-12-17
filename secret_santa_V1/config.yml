@@ -1,0 +1,74 @@
+# Required to connect to your outgoing mail server. Example for using gmail:
+# gmail
+SMTP_SERVER: smtp-mail.outlook.com
+SMTP_PORT: 587
+USERNAME: monadressemail@hotmail.fr
+PASSWORD: "mon_mot_de_passe"
+
+TIMEZONE: 'US/Pacific'
+
+PARTICIPANTS:
+  - Mathieu <5605@holbertonstudents.com>
+  - Caroline <5692@holbertonstudents.com>
+  - Cassandra <6724@holbertonstudents.com>
+  - Christophe <6728@holbertonstudents.com>
+  - Jérôme <6223@holbertonstudents.com>
+  - Thomas <7560@holbertonstudents.com>
+  - Sarah <7445@holbertonstudents.com>
+  - Amandine <7427@holbertonstudents.com>
+  - Alina <5689@holbertonstudents.com>
+  - Omer <7434@holbertonstudents.com>
+  - Lucie Delannay <3560@holbertonstudents.com>
+  - Adrien <adrien.millot@holbertonschool.com>
+  - François <7458@holbertonstudents.com>
+  - Mustapha Abourar <4250@holbertonstudents.com>
+  - Olive <6705@holbertonstudents.com>
+  - Annaik <annaik.meriadec@holbertonschool.com>
+  - Benoît <benoit.denot@holbertonschool.com>
+  - Mathéo <6221@holbertonstudents.com>
+  - Cassandre <7467@holbertonstudents.com>
+  - Carmen <7437@holbertonstudents.com>
+  - Sébastien <5610@holbertonstudents.com>
+  - Rayane <5800@holbertonstudents.com>
+  - Laëtitia <7488@holbertonstudents.com>
+  - Alexis <7468@holbertonstudents.com>
+  - Rich <7489@holbertonstudents.com>
+
+
+# Warning -- if you mess this up you could get an infinite loop
+DONT-PAIR:
+  - Mathieu, Caroline   # are married
+  - Cassandra, Christophe   # are married
+  - Laëtitia, Thomas    # are in couple
+
+# From address should be the organizer in case participants have any questions
+FROM: Caro <fleur-a-fleur59@hotmail.fr>
+
+# Both SUBJECT and MESSAGE can include variable substitution for the 
+# "santa" and "santee"
+SUBJECT: Tu es le secret santa de {santee}
+MESSAGE: |
+
+  🎄 Ho Ho Ho, {santa} ! 🎅
+
+  C’est cette période magique de l’année où nos poches sont légères, mais nos cœurs lourds… de rire ! Prépare-toi pour notre incroyable Secret Santa, où la règle d’or est de ne pas dépasser 5€. Oui, vous avez bien lu, moins que le prix d'une pinte de bière au Gabo !
+
+  Tu es le Secret Santa de {santee}
+
+  Option 1 : Trouve quelque chose de mignon et joyeux à moins de 5€. Un défi pour ta créativité et ton sens de l’économie !
+
+  Option 2 : Fais le grand plongeon dans tes tiroirs et ressuscite cet objet mystérieux dont tu ne sais que faire. Qui sait, peut-être qu’il deviendra le trésor d’un autre ?
+
+  Option 3 : Mets la main à la pâte et crée un chef-d’œuvre fait maison. Tes talents cachés sont sur le point d’être révélés !
+
+  🎁 Rappel Important -> Ton identité doit rester… un secret ! Chut, pas un mot !
+
+  Préparons-nous à partager des rires, des surprises et des souvenirs inoubliables. Que le meilleur cadeau gagne… ou le plus hilarant ! 🤣
+
+  Rendez-vous vendredi 22 décembre midi sur le campus pour un échange de cadeaux mémorable !
+
+  🌟 Joyeux Secret Santa à tous ! 🌟
+
+
+
+IMAGE_PATH: "image.png"
