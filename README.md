@@ -87,6 +87,5 @@ participants.
 To send the emails, call using the `--send` argument
 
 
-=======
     python3 secret_santa.py --send
 
