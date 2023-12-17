@@ -67,7 +67,7 @@ Here is the example configuration unchanged:
 
 Once configured, call secret-santa:
 
-    python secret_santa.py
+    python3 secret_santa.py
 
 Calling secret-santa without arguments will output a test pairing of 
 participants.
@@ -82,8 +82,8 @@ participants.
         To send out emails with new pairings,
         call with the --send argument:
 
-            $ python secret_santa.py --send
+            $ python3 secret_santa.py --send
 
 To send the emails, call using the `--send` argument
 
-    python secret_santa.py --send
+    python3 secret_santa.py --send
